@@ -5,6 +5,7 @@ body{
 }
 section{
     height: 500px;
+    padding-bottom: 25px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -52,8 +53,40 @@ h2{
     font-size: 25px;
     font-weight: 700;
 }
-.bottom-sec{
-    margin-top: 80px;
-    background-image: url(C:\Web Development\Projects\Web-Portfolio\images\dream-bg.png);
+p{
+    color: dimgray;
+}
+.dream-area{
+    margin-top: 60px;
+    background-image: url(images\top-banner.png);
+}
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 45%;
+    background-color: white;
+}
+.last-part{
+    margin-top: 5%;
+    background-image: url(images\exp-bg.png);
+    background-position: left;
     background-repeat: no-repeat;
+}
+.orange-highlight{
+    color: orange;
+}
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
 }
